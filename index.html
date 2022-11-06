@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/Normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <main class="hero">
+      <div class="hero__brand">
+        <div class="container">
+          <img src="./images/logo.svg" alt="" aria-hidden="true">
+        </div>
+      </div>
+      <div class="hero__main">
+        <div class="container">
+          <h1 class="hero__title"><span>We're</span> coming soon</h1>
+          <p class="hero__info">Hello fellow shoppers! We're currently building our new fashion store. 
+            Add your email below to stay up-to-date with announcements and our launch deals.</p>
+          <div class="hero__input" id="contenedorInput">
+            <input type="email" placeholder="Email Address" class="input_email" id="email">
+            <img src="./images/icon-error.svg" alt="" class="input__icon__good delete" id="confirmation_icon" aria-hidden="true">
+            <button class="hero__button" id="buttonSubmit"><img src="./images/icon-arrow.svg" alt="" aria-hidden="true"></button>
+          </div>
+          <span class="message__error delete" id="message__error">Error Introduce un coreo correcto</span>
+        </div>
+      </div>
+      <div class="hero__image"></div>
+  </main>
+  <script src="./javascript/index.js"></script>
+  
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
